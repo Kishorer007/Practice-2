@@ -10,16 +10,19 @@ body{
     background-color:#FFD1C1;
 
 .Container{
-    background-color:#4A148C;
+    background-color:#7540b5;
     height: 500px;
     width: 450px;
     padding: 60px;
-    border-radius: 50px;
-    box-shadow: 20px 20px 10px gray;
+    border-radius: 70px;
+    box-shadow: 10px 10px 10px gray;
     box-sizing: border-box;
+#username{
+    margin-bottom: 40px;
+}
 h2{
     display: block;
-    font-size: xx-large;
+    font-size: x-large;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -34,26 +37,27 @@ label{
     text-align: left;
     display: block;
     margin-bottom: 5px;
+    margin-left: 20px;
 }
 input{
     width: 300px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 80px;
     height: 20px;
     border: none;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 button{
     width: 325px;
     font-weight: bold;
-    font-size: larger;
+    font-size: x-large;
     padding: 10px;
     border-radius: 20px;
     background-color:#42A5F5;
     border: none;
     color: white;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 }
 }

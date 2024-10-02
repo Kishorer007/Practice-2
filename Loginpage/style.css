@@ -3,11 +3,11 @@
 }
 body{
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-color:#FFD1C1;
+}
 
 .Container{
     background-image:linear-gradient(to right,rgb(10, 146, 140), rgb(82, 63, 123));
@@ -17,10 +17,9 @@ body{
     border-radius: 70px;
     box-shadow: 10px 10px 10px gray;
     box-sizing: border-box;
-#username{
-    margin-bottom: 40px;
 }
-h2{
+
+div h2{
     display: block;
     font-size: x-large;
     margin-block-start: 1em;
@@ -29,12 +28,16 @@ h2{
     margin-inline-end: 0px;
     font-weight: bold;
     color: white;
+    text-align: center;
 }  
+#username{
+    margin-bottom: 40px;
+}
 .login-form{
 label{
     font-size: large;
     color: #D3D3D3;
-    text-align: left;
+    
     display: block;
     margin-bottom: 5px;
     margin-left: 20px;
@@ -58,7 +61,5 @@ button{
     border: none;
     color: white;
     margin-top: 30px;
-}
-}
 }
 }

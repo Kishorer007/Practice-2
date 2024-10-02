@@ -10,7 +10,7 @@ body{
     background-color:#FFD1C1;
 
 .Container{
-    background-color:#7540b5;
+    background-image:linear-gradient(to right,rgb(10, 146, 140), rgb(82, 63, 123));
     height: 500px;
     width: 450px;
     padding: 60px;

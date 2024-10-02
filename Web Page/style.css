@@ -1,83 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.main-page{
-    margin: 80px;
+.main-page {
+  margin: 80px;
 }
 
-.menu{
-    background-color: black;
-    color: white;
-    padding: 20px 50px 0px;
-    height: 300px;
+.menu {
+  background-color: black;
+  color: white;
+  padding: 20px 50px 0px;
+  height: 300px;
 }
 
 header {
-    a{
+  a {
     text-decoration: none;
     color: white;
     margin-left: 20px;
     font-size: larger;
-}
+  }
 
-div{
+  div {
     align-items: center;
     text-align: center;
     margin-top: 100px;
-h1{
-    font-size: 50px;
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      font-size: larger;
+      color: wheat;
+    }
+  }
 }
 
-p{
-    font-size: larger;
-    color: wheat;
-}
-}
-}
-
-.containers{
-    width: 20%;
-   margin-top: 20px;
-   margin-left: auto;
-   margin-right: auto;
+.containers {
+  width: 20%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h2{
-    margin-top: 0;
+h2 {
+  margin-top: 0;
 }
 
-img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
-.info{
-    background-color: black;
-    color: white;
-    box-sizing: border-box;
+.info {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
 }
 
-#Author{
-    margin-left: 50px;
+#Author {
+  margin-left: 50px;
 }
 
-#contactLinks{
-    display: flex;
-    right: 0;
+#contactLinks {
+  display: flex;
+  right: 0;
 
-a{
+  a {
     text-decoration: none;
-    color:white;
+    color: white;
     margin-left: 10px;
-} 
+  }
 }
